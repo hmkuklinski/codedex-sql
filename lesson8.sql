@@ -21,3 +21,8 @@ WHERE neighborhood = 'Greenpoint'
 SELECT *
 FROM restaurants
 WHERE price = '$'
+
+--Most Expensive restaurants:
+SELECT *
+FROM restaurants
+WHERE price = '$$$$'
